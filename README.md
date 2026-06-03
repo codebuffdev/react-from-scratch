@@ -12,4 +12,10 @@
 - Working with parcel bundler 
 - Features of parcel 
 
+### 02-ignite-project/02-vite
+- Working with vite bundler 
+
+### 02-ignite-project/03-cra
+- create-react app template 
+
 ## react-u-monster
