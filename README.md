@@ -18,4 +18,8 @@
 ### 02-ignite-project/03-cra
 - create-react app template 
 
+### 03-laying-react-foundations
+- Introduction to jsx
+    - Babel transpile jsx => React element 
+
 ## react-u-monster
