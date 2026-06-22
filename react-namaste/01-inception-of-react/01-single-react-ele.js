@@ -1,4 +1,8 @@
-const reactEleH1 = React.createElement("h1", { id: "heading", className: "h-info goodColor", custom: "value" }, "Hello FROM REACT!! ");
+const reactEleH1 = React.createElement("h1", {
+    id: "heading",
+    className: "h-info goodColor",
+    custom: "value"
+}, "Hello FROM REACT!! ");
 const reactRoot = ReactDOM.createRoot(document.getElementById("root"));
 reactRoot.render(reactEleH1);
 
