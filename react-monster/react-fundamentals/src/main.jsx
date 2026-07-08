@@ -1,7 +1,7 @@
 import {StrictMode} from 'react'
 import {createRoot} from 'react-dom/client'
 // import EventDemo from "./12-events/work/EventDemo.jsx";
-// import App from "./12-events/practice/App.jsx";
+// import App from "./12-events/practice/AppLayout.jsx";
 // import StyleComponentContainer from "./11-Styles/work/StyleComponentContainer.jsx";
 // import ReactIcons from "./11-Styles/practice/ReactIcons.jsx";
 // import OutsideCss from "./11-Styles/practice/OutsideCss.jsx";

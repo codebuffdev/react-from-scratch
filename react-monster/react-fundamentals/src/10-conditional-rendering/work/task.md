@@ -33,9 +33,9 @@ In this exercise, you will practice different ways to render JSX conditionally i
         - If `timeOfDay` is `"morning"`, display: "Good morning!"
         - If `timeOfDay` is `"afternoon"`, display: "Good afternoon!"
 
-#### Step 4: Render the Components in `App.jsx`
+#### Step 4: Render the Components in `AppLayout.jsx`
 
-1. In your `App.jsx` file, import the `Weather`, `UserStatus`, and `Greeting` components:
+1. In your `AppLayout.jsx` file, import the `Weather`, `UserStatus`, and `Greeting` components:
 
    ```jsx
    import Weather from "./Weather";

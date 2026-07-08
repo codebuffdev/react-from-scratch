@@ -24,9 +24,9 @@ In this exercise, you will learn how to create multiple components and render on
     - A `<h2>` element with the text `"Main Content"`.
     - A `<p>` element with any text of your choice.
 
-#### Step 4: Render Components Inside `App.jsx`
+#### Step 4: Render Components Inside `AppLayout.jsx`
 
-1. In your `App.jsx` file, import the `Header`, `MainContent`, and `Footer` components:
+1. In your `AppLayout.jsx` file, import the `Header`, `MainContent`, and `Footer` components:
 
    ```jsx
    import Header from "./Header";
@@ -39,7 +39,7 @@ In this exercise, you will learn how to create multiple components and render on
     - `MainContent`
     - `Footer`
 
-Your `App.jsx` should look like this:
+Your `AppLayout.jsx` should look like this:
 
 ```jsx
 function App() {

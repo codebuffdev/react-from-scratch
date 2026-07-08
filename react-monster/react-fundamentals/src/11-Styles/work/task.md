@@ -49,9 +49,9 @@ In this exercise, you'll learn how to apply styles using different methods in Re
 
 6. Render the icon with a title.
 
-#### Step 4: Render All Components in `App.jsx`
+#### Step 4: Render All Components in `AppLayout.jsx`
 
-1. In your `App.jsx` file, import the `StyledCard`, `ProfileCard`, and `IconComponent` components:
+1. In your `AppLayout.jsx` file, import the `StyledCard`, `ProfileCard`, and `IconComponent` components:
 
    ```jsx
    import StyledCard from "./StyledCard";

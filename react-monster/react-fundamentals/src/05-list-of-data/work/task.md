@@ -34,9 +34,9 @@ In this exercise, you will learn how to render a list of items using the `.map()
 
 4. Use the `.map()` method to render the list of products. Each product’s `name` and `price` should be displayed inside a `<div>` element. Use the `id` as the `key` for each product.
 
-#### Step 3: Render the Components in `App.jsx`
+#### Step 3: Render the Components in `AppLayout.jsx`
 
-1. In your `App.jsx` file, import the `UserList` and `ProductList` components:
+1. In your `AppLayout.jsx` file, import the `UserList` and `ProductList` components:
 
    ```jsx
    import UserList from "./UserList";

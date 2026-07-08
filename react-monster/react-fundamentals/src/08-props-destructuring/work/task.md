@@ -18,9 +18,9 @@ In this exercise, you will learn how to use **destructuring** to simplify how yo
     - A `<h2>` element that displays the product's name.
     - A `<p>` element that displays the product's price.
 
-#### Step 3: Pass Props from `App.jsx`
+#### Step 3: Pass Props from `AppLayout.jsx`
 
-1. In your `App.jsx` file, import the `Person` and `Product` components:
+1. In your `AppLayout.jsx` file, import the `Person` and `Product` components:
 
    ```jsx
    import Person from "./Person";

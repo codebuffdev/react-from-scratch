@@ -24,9 +24,9 @@ In this exercise, you will learn how to pass and use props in React components t
 
 4. Use `props.name` and `props.price` to display the values passed from the parent component.
 
-#### Step 3: Pass Props from `App.jsx`
+#### Step 3: Pass Props from `AppLayout.jsx`
 
-1. In your `App.jsx` file, import the `Person` and `Product` components:
+1. In your `AppLayout.jsx` file, import the `Person` and `Product` components:
 
    ```jsx
    import Person from "./Person";

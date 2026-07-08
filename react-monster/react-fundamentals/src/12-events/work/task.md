@@ -12,9 +12,9 @@
     - A `<div>` containing a `<p>` element. When text inside the `<p>` element is copied, the text should change to "Text Copied!".
     - A `<div>` containing a `<p>` element. When the mouse hovers over the `<p>` element, the background color should change to light yellow.
 
-#### Step 2: Render the `EventDemo` Component in `App.jsx`
+#### Step 2: Render the `EventDemo` Component in `AppLayout.jsx`
 
-1. In your `App.jsx` file, import the `EventDemo` component:
+1. In your `AppLayout.jsx` file, import the `EventDemo` component:
 
    ```jsx
    import EventDemo from "./EventDemo";
