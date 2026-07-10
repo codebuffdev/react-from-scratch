@@ -1,0 +1,70 @@
+/* Parent container */
+.top-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Search section */
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Filter section */
+.filter-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Search input */
+.search-container input {
+    padding: 10px 12px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.search-container input:focus {
+    border-color: #ff6b6b;
+}
+
+/* Generic button styles */
+.search-container button,
+.filter-restaurant {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff6b6b;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Hover */
+.search-container button:hover,
+.filter-restaurant:hover {
+    background-color: #ff5252;
+    transform: translateY(-2px);
+}
+
+/* Click effect */
+.search-container button:active,
+.filter-restaurant:active {
+    transform: scale(0.96);
+}
+
+/* Keyboard accessibility */
+.search-container button:focus-visible,
+.filter-restaurant:focus-visible {
+    outline: 3px solid rgba(255, 107, 107, 0.35);
+    outline-offset: 2px;
+}
