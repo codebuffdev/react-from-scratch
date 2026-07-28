@@ -34,7 +34,7 @@ In this exercise, you will learn how to create multiple components and render on
    import Footer from "./Footer";
    ```
 
-2. Inside the `App` component's return statement, render the three components inside a single `<div>`, in the following order:
+2. Inside the `BasicStateCounterApp` component's return statement, render the three components inside a single `<div>`, in the following order:
     - `Header`
     - `MainContent`
     - `Footer`
@@ -42,7 +42,7 @@ In this exercise, you will learn how to create multiple components and render on
 Your `AppLayout.jsx` should look like this:
 
 ```jsx
-function App() {
+function BasicStateCounterApp() {
   return (
     <div>
       <Header />
@@ -52,5 +52,5 @@ function App() {
   );
 }
 
-export default App;
+export default BasicStateCounterApp;
 ```

@@ -25,7 +25,7 @@ export default JSXComponent;
 // output :
 
 // import React from "react";
-// const App = () => {
+// const BasicStateCounterApp = () => {
 //   return React.createElement(
 //     "section",
 //     {
@@ -47,4 +47,4 @@ export default JSXComponent;
 //   );
 // };
 
-// export default App;
+// export default BasicStateCounterApp;

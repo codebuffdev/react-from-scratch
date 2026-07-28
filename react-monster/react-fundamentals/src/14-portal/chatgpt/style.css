@@ -1,0 +1,35 @@
+.app {
+	padding: 50px;
+	background: #eee;
+}
+
+.product-card {
+	width: 350px;
+	height: 220px;
+
+	border: 2px solid black;
+
+	margin-top: 40px;
+
+	padding: 20px;
+
+	overflow: hidden;
+
+	position: relative;
+}
+
+.modal {
+	position: absolute;
+
+	top: 120px;
+
+	left: 120px;
+
+	width: 250px;
+
+	padding: 20px;
+
+	background: white;
+
+	border: 3px solid red;
+}

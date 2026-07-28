@@ -59,10 +59,10 @@ In this exercise, you'll learn how to apply styles using different methods in Re
    import IconComponent from "./IconComponent";
    ```
 
-2. Inside the `App` component, render all three components:
+2. Inside the `BasicStateCounterApp` component, render all three components:
 
    ```jsx
-   function App() {
+   function BasicStateCounterApp() {
      return (
        <div>
          <StyledCard />
@@ -72,5 +72,5 @@ In this exercise, you'll learn how to apply styles using different methods in Re
      );
    }
 
-   export default App;
+   export default BasicStateCounterApp;
    ```

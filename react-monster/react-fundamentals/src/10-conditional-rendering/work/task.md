@@ -43,12 +43,12 @@ In this exercise, you will practice different ways to render JSX conditionally i
    import Greeting from "./Greeting";
    ```
 
-2. Inside the `App` component, render each component with different props to test the conditional rendering logic.
+2. Inside the `BasicStateCounterApp` component, render each component with different props to test the conditional rendering logic.
 
 Example:
 
 ```jsx
-function App() {
+function BasicStateCounterApp() {
   return (
     <div>
       <h1>Conditional Rendering in React</h1>
@@ -70,5 +70,5 @@ function App() {
   );
 }
 
-export default App;
+export default BasicStateCounterApp;
 ```

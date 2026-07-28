@@ -43,10 +43,10 @@ In this exercise, you will learn how to render a list of items using the `.map()
    import ProductList from "./ProductList";
    ```
 
-2. Inside the `App` component's return statement, render both the `UserList` and `ProductList` components:
+2. Inside the `BasicStateCounterApp` component's return statement, render both the `UserList` and `ProductList` components:
 
    ```jsx
-   function App() {
+   function BasicStateCounterApp() {
      return (
        <div>
          <UserList />
@@ -55,5 +55,5 @@ In this exercise, you will learn how to render a list of items using the `.map()
      );
    }
 
-   export default App;
+   export default BasicStateCounterApp;
    ```

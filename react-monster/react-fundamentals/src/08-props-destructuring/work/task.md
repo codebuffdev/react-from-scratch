@@ -27,12 +27,12 @@ In this exercise, you will learn how to use **destructuring** to simplify how yo
    import Product from "./Product";
    ```
 
-2. Inside the `App` component, pass the `name` and `age` props to the `Person` component, and `name` and `price` props to the `Product` component.
+2. Inside the `BasicStateCounterApp` component, pass the `name` and `age` props to the `Person` component, and `name` and `price` props to the `Product` component.
 
 Example:
 
 ```jsx
-function App() {
+function BasicStateCounterApp() {
   return (
     <div>
       {/* Passing props to Person */}
@@ -46,5 +46,5 @@ function App() {
   );
 }
 
-export default App;
+export default BasicStateCounterApp;
 ```

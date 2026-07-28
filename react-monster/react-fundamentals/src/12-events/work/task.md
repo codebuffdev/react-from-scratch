@@ -20,10 +20,10 @@
    import EventDemo from "./EventDemo";
    ```
 
-2. Inside the `App` component, render the `EventDemo` component:
+2. Inside the `BasicStateCounterApp` component, render the `EventDemo` component:
 
    ```jsx
-   function App() {
+   function BasicStateCounterApp() {
      return (
        <div>
          <h1>React Event Handling Challenge</h1>
@@ -32,5 +32,5 @@
      );
    }
 
-   export default App;
+   export default BasicStateCounterApp;
    ```

@@ -11,7 +11,7 @@ function ComponentApp() {
 }
 
 /*
-const App = () => (
+const BasicStateCounterApp = () => (
     <section>Hello</section>
 );
 */

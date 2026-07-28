@@ -3,7 +3,7 @@
 // 1. Return a single root element (container element). To return multiple elements from a component, wrap them with a single parent tag.
 
 // ERROR
-// const App = () => {
+// const BasicStateCounterApp = () => {
 //     return (
 //         <section id="section"> </section>
 //         <h1>Welcome To React</h1>
@@ -14,7 +14,7 @@
 // JSX requires tags to be explicitly closed: self-closing tags like <img> must become <img />, and wrapping tags like <li>oranges must be written as <li>oranges</li>.
 
 // Error
-// const App = () => {
+// const BasicStateCounterApp = () => {
 //     return (
 //         <section id="section">
 //           <img >
@@ -24,7 +24,7 @@
 
 // 3. className
 // open your DevTools and read the error message
-// const App = () => {
+// const BasicStateCounterApp = () => {
 //   return (
 //     <section class="section">
 //       <h1 class="title">Hello HuXn</h1>

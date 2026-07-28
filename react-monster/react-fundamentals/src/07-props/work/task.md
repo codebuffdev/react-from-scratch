@@ -33,6 +33,6 @@ In this exercise, you will learn how to pass and use props in React components t
    import Product from "./Product";
    ```
 
-2. Inside the `App` component, pass dynamic data as props to both `Person` and `Product` components:
+2. Inside the `BasicStateCounterApp` component, pass dynamic data as props to both `Person` and `Product` components:
     - Pass `name` and `age` as props to the `Person` component.
     - Pass `name` and `price` as props to the `Product` component.
